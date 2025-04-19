@@ -53,7 +53,7 @@ const Experience = () => {
         Experience
       </h2>
       <div className="relative mt-10 md:mt-20 md:p-20 flex flex-col items-center sm:flex-row sm:items-start">
-        <div className="flex flex-col sm:w-auto">
+        <div className="flex flex-col sm:w-full">
           {experiences.map((experience, index) => {
             return (
               <ExperienceCard
